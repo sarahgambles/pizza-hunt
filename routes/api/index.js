@@ -4,6 +4,12 @@ const router = require('express').Router();
 const apiRoutes = require('./api');
 const htmlRoutes = require('./html/html-routes');
 
+const commentRoutes = require('./comment-routes');
+const pizzaRoutes = require('./pizza-routes');
+
+router.use('/comments', commentRoutes);
+router.use('/pizzas', pizzaRoutes);
+
 // add prefix of `/api` to all of the api routes imported from the `api` directory
 router.use('/api', apiRoutes);
 router.use('/', htmlRoutes);
