@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+<<<<<<< HEAD
     "mongoose": "^5.11.4"
   },
   "repository": {
@@ -22,4 +23,8 @@
     "url": "https://github.com/sarahgambles/pizza-hunt/issues"
   },
   "homepage": "https://github.com/sarahgambles/pizza-hunt#readme"
+=======
+    "mongoose": "^5.11.1"
+  }
+>>>>>>> ad7e59bd9174d3da0e637e7f7229b28adf934e8a
 }
